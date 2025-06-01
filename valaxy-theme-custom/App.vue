@@ -62,8 +62,7 @@ onBeforeMount(async () => {
 });
 
 onMounted(async () => {
-  (app.showLoading = false), 
-  await import("@fontsource/noto-sans-sc/400.css");
+  (app.showLoading = false), await import("@fontsource/noto-sans-sc/400.css");
 });
 </script>
 <template>

@@ -1,13 +1,15 @@
 ---
-title: 我的小伙伴们
+title: 友情链接
 keywords: 链接
 description: 以及穗香咖啡馆的各位！
-links: https://api.lihaoyu.cn/blog/links/inpage
+links: https://objects.lihaoyu.cn/bigcake-blog-assets/bigcake-friends.2cab7553-c5b1-4b81-99dd-8bc92b30e154.json
 links_global: https://api.lihaoyu.cn/blog/links/global
 random: true
 aplayer: false
 medium_zoom: false
 ---
+
+# 友情链接
 
 <!-- <meting-js
  id="2005302493"

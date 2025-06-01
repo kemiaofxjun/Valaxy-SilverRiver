@@ -83,16 +83,6 @@ html[data-theme="dark"] .shiki span {
   text-decoration: var(--shiki-dark-text-decoration) !important;
 }
 
-html[data-theme="light"] .markdown-body [class*=language-] > button.copy {
-  background-color: var(--shiki-light-bg) !important;
-  border: var(--bulma-body-color);
-}
-
-html[data-theme="dark"] .markdown-body [class*=language-] > button.copy {
-  background-color: var(--shiki-dark-bg) !important;
-  border: var(--vp-code-copy-code-border-color);
-}
-
 .markdown-body div[class*=language-] {
   border-radius: 6px;
   margin-bottom: 16px;
@@ -100,4 +90,8 @@ html[data-theme="dark"] .markdown-body [class*=language-] > button.copy {
 
 .markdown-body [class*=language-] > span.lang {
   color: rgb(var(--va-c-text)) !important;
+}
+
+.content ul:not(:first-child) {
+    margin-top: 0;
 }

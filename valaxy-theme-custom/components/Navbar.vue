@@ -29,7 +29,7 @@ const toggleDark = () => appStore.toggleDark();
       <div class="navbar-menu">
         <div class="navbar-start">
           <RouterLink class="navbar-item" to="/" aria-label="Site Index">
-            首页
+            {{ t('menu.home') }}
           </RouterLink>
           <span class="flex flex-row" v-for="page in themeConfig.pages">
             <AppLink
@@ -49,11 +49,12 @@ const toggleDark = () => appStore.toggleDark();
               :href="item.url"
               :aria-label="item.name"
               target="_blank"
+              :title="item.name"
             >
               <span class="icon text-xl" :class="item.icon" />
             </a>
           </span>
-          <RouterLink to="/search" class="navbar-item" aria-label="Search">
+          <RouterLink to="/search" class="navbar-item" aria-label="Search" :title="t('menu.search')">
             <span class="icon text-xl i-ri-search-line" />
           </RouterLink>
           <a
@@ -61,6 +62,7 @@ const toggleDark = () => appStore.toggleDark();
             href="https://www.travellings.cn/go.html"
             aria-label="开往"
             target="_blank"
+            :title="t('menu.travellings')"
           >
             <span class="icon text-xl i-fluent-vehicle-subway-24-regular" />
           </a>
@@ -79,6 +81,7 @@ const toggleDark = () => appStore.toggleDark();
             class="navbar-item"
             @click="toggleDark"
             aria-label="Switch theme"
+            :title="t('menu.toggle_theme')"
           >
             <div class="icon text-xl i-ri-contrast-2-line" />
           </button>
@@ -86,7 +89,7 @@ const toggleDark = () => appStore.toggleDark();
       </div>
       <div class="flex justify-center overflow-auto lg:hidden">
         <RouterLink class="navbar-item" to="/" aria-label="Site Index">
-          首页
+          {{ t('menu.home') }}
         </RouterLink>
         <span class="flex flex-row" v-for="page in themeConfig.pages">
           <AppLink
@@ -100,11 +103,11 @@ const toggleDark = () => appStore.toggleDark();
         </span>
 
         <span class="flex flex-row" v-for="item in themeConfig.quickAccess">
-          <AppLink class="navbar-item" :href="item.url" :aria-label="item.name">
+          <AppLink class="navbar-item" :href="item.url" :aria-label="item.name" :title="item.name">
             <div class="icon text-xl" :class="item.icon" />
           </AppLink>
         </span>
-        <RouterLink to="/search" class="navbar-item" aria-label="Search">
+        <RouterLink to="/search" class="navbar-item" aria-label="Search" :title="t('menu.search')">
           <span class="icon text-xl i-ri-search-line" />
         </RouterLink>
         <a
@@ -112,6 +115,7 @@ const toggleDark = () => appStore.toggleDark();
           href="https://www.travellings.cn/go.html"
           aria-label="开往"
           target="_blank"
+          :title="t('menu.travellings')"
         >
           <span class="icon text-xl i-fluent-vehicle-subway-24-regular" />
         </a>
@@ -130,6 +134,7 @@ const toggleDark = () => appStore.toggleDark();
           class="navbar-item"
           @click="toggleDark"
           aria-label="Switch theme"
+          :title="t('menu.toggle_theme')"
         >
           <div class="icon text-xl i-ri-contrast-2-line" />
         </button>

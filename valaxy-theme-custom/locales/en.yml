@@ -15,6 +15,7 @@ menu:
   archives: Archives
   links: Friends
   wormhole: Worm Hole
+  toggle_theme: Toggle Theme
 
 social:
   rss: RSS
@@ -55,3 +56,8 @@ excerpt:
 google_ads:
   title: Ads by Google
   unavailable: Google ads are temporarily unavailable due to relevant regulations
+
+not_found:
+  title: Not Found
+  message: The page you are looking for does not exist or has been removed.
+  back_to_home: Back to Home

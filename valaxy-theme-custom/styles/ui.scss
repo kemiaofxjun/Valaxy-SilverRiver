@@ -31,6 +31,22 @@ body {
 :root {
   --va-code-block-bg: var(--bulma-code-background);
   --bulma-link-text: hsl(207, 61%, 53%);
+
+}
+
+html[data-theme="light"] {
+  --va-code-copy-code-bg: #f9f9f9;
+  --va-code-copy-code-hover-bg: #ffffff;
+  --va-code-copy-code-border-color: #e2e2e3;
+  --va-code-copy-code-hover-border-color: #e2e2e3;
+  --va-code-copy-code-active-text: rgba(60, 60, 67, 0.78);
+}
+html[data-theme="dark"] {
+  --va-code-copy-code-bg: #121215;
+  --va-code-copy-code-hover-bg: #1a1a1d;
+  --va-code-copy-code-border-color: #2e2e32;
+  --va-code-copy-code-hover-border-color: #2e2e32;
+  --va-code-copy-code-active-text: rgba(235, 235, 245, .6);
 }
 
 #nprogress {

@@ -1,9 +1,7 @@
 import { defineValaxyConfig } from "valaxy";
 import type { ThemeConfig } from "valaxy-theme-custom";
 import { addonLightGallery } from "valaxy-addon-lightgallery";
-import compression from "vite-plugin-compression2";
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
-import { startAISummary } from "./utils/aiSummary";
 
 /**
  * User Config
@@ -13,19 +11,11 @@ export default defineValaxyConfig<ThemeConfig>({
     addonLightGallery(),
   ],
 
-  hooks: {
-    "build:before": async () => {
-      console.log("🌌 - 🤖 | Generating AI summary, this may take a while...");
-      await startAISummary();
-    },
-  },
-
   vite: {
     optimizeDeps: {
       include: ["artalk", "axios"],
     },
     plugins: [
-      compression(),
       ViteMinifyPlugin({
         minifyCSS: true,
         minifyJS: true,

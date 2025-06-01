@@ -32,13 +32,13 @@ Last update: 2024 / 07 / 23.
 
 <div lang="zh-CN">
 
-## 隐私政策
+# 隐私政策
 
-### 总则
+## 总则
 
 在您浏览我们的网站时，为了提供更好的服务，我们可能会收集您的部分信息。尽管如此，我们仍然非常重视您的隐私，这也就是为什么我们向您提供这份隐私政策。本政策旨在协助您知晓我们所收集的信息、我们会收集哪些信息、我们为何收集这些信息、以及我们如何收集、处理、存储、使用这些信息。
 
-### 如何阅读
+## 如何阅读
 
 如同您所知道的，隐私政策通常过于冗长且难以阅读，因此我们对本政策中的部分内容进行了标注，以帮助您进行阅读。
 
@@ -52,7 +52,7 @@ Last update: 2024 / 07 / 23.
 使用「警告」容器进行标注的内容务必请您格外注意，因为可能不利于您。
 :::
 
-### 协议修订
+## 协议修订
 
 我们保留随时对此协议进行修改，修订或更新本政策的权利。当前生效的版本将会始终发布在我们的页面上。
 
@@ -62,7 +62,7 @@ Last update: 2024 / 07 / 23.
 
 新修改的政策将立刻替代此前发布的所有版本，但 CDN 提供商、网站托管商、浏览器、运营商和其他组织或个人可能出于节省带宽或其他因素缓存本页面，在这种情况下导致您看到的页面内容可能和实际不符，应当以 GitHub 提交记录为准。您始终可以通过[此链接](https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/blob/source/pages/policies/privacy.md)查看本页面的原始 Markdown 文件。
 
-### 我们主动收集的信息和理由
+## 我们主动收集的信息和理由
 
 我们将会主动收集如下信息：
 
@@ -77,7 +77,7 @@ Last update: 2024 / 07 / 23.
 
 实际上，你并不一定必须提供这些信息，但在大多数情况下，如果你不提供这些信息，我们将无法为你提供服务。
 
-### 我们如何收集您的信息
+## 我们如何收集您的信息
 
 我们遵循最小化原则收集您的信息。
 
@@ -93,7 +93,7 @@ IP 属地精确到城市。
 诸如 CDN 服务商、Google 广告等第三方加入的数据收集器，我们在一般情况下无法控制。您可以考虑使用广告拦截扩展来屏蔽这些数据收集器。
 :::
 
-### 我们如何使用、存储您的信息
+## 我们如何使用、存储您的信息
 
 在大多数情况下，我们只会使用你的信息来提供尽可能好的服务，并不断改进我们提供的服务。我们也会使用你的信息进行数据分析和调查。
 
@@ -107,7 +107,7 @@ IP 属地精确到城市。
 保护用户的信息不被非法获取是我们的义务。除非经过你的允许，或受到不可抗力的影响，我们不会主动在非必要的情况下将你的信息披露给第三方，也不会出于任何目的将你的信息售卖给第三方。
 :::
 
-### 用户信息的所有、保留与删除
+## 用户信息的所有、保留与删除
 
 :::tip
 尽管我们可能会存储你的信息，但你仍然具有你的信息的所有权。在大多数情况下，我们只会在有需要时获取和存储你的信息，在使用完毕后会立即删除没有必要保留的信息。
@@ -119,7 +119,7 @@ IP 属地精确到城市。
 部分信息在被删除后，可能会被重新获取或生成。
 :::
 
-### 我们使用的第三方服务
+## 我们使用的第三方服务
 
 为了维护站点的浏览体验，我们使用了一些由第三方提供的服务。这些服务的提供商可能会收集和使用更多的数据，并且不在我们的控制范围之内。请查看以下内容来了解对应的主体的隐私政策：
 
@@ -146,13 +146,13 @@ IP 属地精确到城市。
 
 <div lang="en">
 
-## Privacy Policy
+# Privacy Policy
 
-### General
+## General
 
 When you browse our website, in order to provide better services, we may collect some of your information. Nevertheless, we still take your privacy very seriously, which is why we are providing you with this Privacy Policy. This policy is designed to help you understand the information we collect, what information we collect, why we collect this information, and how we collect, process, store and use this information.
 
-### How to read
+## How to read
 
 As you know, privacy policies are often lengthy and difficult to read, so we've marked parts of this policy to help you read them.
 
@@ -166,7 +166,7 @@ Contents marked with the WARNING container requires your attention.
 You must pay special attention to contents marked with a "DANGER" container, because it may be harmful to you.
 :::
 
-### Amendments of the agreement
+## Amendments of the agreement
 
 We reserve the right to modify this agreement, amend or update this policy at any time. The currently valid version will always be published on our pages.
 
@@ -176,7 +176,7 @@ You should check this page periodically, using your browser's "refresh" button, 
 
 The newly revised policy will immediately replace all previously released versions, but CDN providers, website hosts, browsers, ISPs, and other organizations or individuals may cache this page for bandwidth saving or other reasons. In this case, the content of the page you see may not match the actual content, and the GitHub commit record shall prevail. You can always view the original Markdown file of this page via [this link](https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/blob/source/pages/policies/privacy.md).
 
-### Information we actively collect and why
+## Information we actively collect and why
 
 We will actively collect the following information:
 
@@ -191,7 +191,7 @@ The IP address you provide when browsing this site is only used for display and 
 
 In fact, you do not have to provide this information, but in most cases, if you do not provide this information, we will not be able to provide you with services.
 
-### How we collect your information
+## How we collect your information
 
 We collect your information on a minimal basis.
 
@@ -207,7 +207,7 @@ IP territories are accurate to geographic locations at the city level.
 We generally have no control over data collectors added by third parties such as CDN service providers. You might consider using an ad blocking extension to block these data collectors.
 :::
 
-### How we use and store your information
+## How we use and store your information
 
 In most cases, we will only use your information to provide the best possible service and to continuously improve the services we provide. We also use your information for data analysis and research.
 
@@ -221,7 +221,7 @@ In order to provide better services, we may provide some of your information to 
 It is our obligation to protect users' information from being illegally obtained. Unless with your permission or affected by force majeure, we will not proactively disclose your information to third parties unless necessary, nor will we sell your information to third parties for any purpose.
 :::
 
-### Ownership, retention and deletion of user information
+## Ownership, retention and deletion of user information
 
 :::tip
 Although we may store your information, you still own your information. In most cases, we will only obtain and store your information when necessary, and will delete unnecessary information immediately after use.
@@ -233,7 +233,7 @@ You can contact us to delete your information at any time, but we also have the 
 Some information may be reacquired or generated after being deleted.
 :::
 
-### Third party services we use
+## Third party services we use
 
 In order to maintain the browsing experience of the site, we use some services provided by third parties. The providers of these services may collect and use additional data and are beyond our control. Please review the following to understand the privacy policy of the corresponding subject:
 

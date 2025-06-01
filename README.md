@@ -10,9 +10,9 @@
 
 框架：[Valaxy](https://valaxy.site)
 
-主题：[自制 Material You 风格主题](https://www.lihaoyu.cn/posts/rewrite-my-blog)
+主题：[SilverRiver](https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/tree/source/valaxy-theme-custom)
 
-- 主站：[lihaoyu.cn](https://lihaoyu.cn) | [big-cake-jpg.github.io](https://big-cake-jpg.github.io)
+- 主站：[www.lihaoyu.cn](https://www.lihaoyu.cn) | [big-cake-jpg.github.io](https://big-cake-jpg.github.io)
 - 备用：[bigcake-blog.netlify.app](https://bigcake-blog.netlify.app)
 
 Hexo 存档分支：`hexo`
@@ -23,9 +23,9 @@ Hexo 存档分支：`hexo`
 
 ```bash
 git clone https://github.com/Big-Cake-jpg/big-cake-jpg.github.io.git
-yarn # npm install
+pnpm # npm install
 valaxy new 
-yarn build
+pnpm build
 ```
 
 ### Publish | 日常发布

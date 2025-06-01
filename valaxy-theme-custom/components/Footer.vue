@@ -49,9 +49,9 @@ onMounted(async () => {
         </div>
         <div class="text-center lg:text-right">
           <p>
-            Built with <a href="https://valaxy.site">Valaxy</a> by SliverRiver
+            Powered by <a href="https://valaxy.site">Valaxy</a> · Theme <a href="https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/tree/source/valaxy-theme-custom" target="_blank">SilverRiver</a>
           </p>
-          <p>Customized by Big_Cake</p>
+          <p>Designed by <a href="https://www.gxres.net">SliverRiver</a> & Big_Cake</p>
         </div>
       </div>
     </div>

@@ -3,13 +3,13 @@ import { watch, nextTick, ref, onMounted, onBeforeUnmount } from "vue";
 import { useRoute } from "vue-router";
 import Artalk from "artalk";
 import "artalk/dist/Artalk.css";
-import { useFrontmatter } from "valaxy";
-import { useAppStore } from "valaxy";
+import { useFrontmatter, useAppStore, useLocale } from "valaxy";
 
 const appStore = useAppStore();
 const fm = useFrontmatter();
 const el = ref<HTMLElement | null>(null);
 const route = useRoute();
+const lc = useLocale();
 
 let artalk: Artalk;
 
@@ -18,10 +18,18 @@ onMounted(() => {
     initArtalk(getConfByPage());
   });
   watch(
-    () => ({ isDark: appStore.isDark }),
-    (newVal) => {
+    () => appStore.isDark,
+    (newVal: boolean) => {
       if (artalk) {
-        artalk.setDarkMode(newVal.isDark);
+        artalk.setDarkMode(newVal);
+      }
+    }
+  );
+  watch(
+    () => lc.lang.value,
+    () => {
+      if (artalk) {
+        artalk.update(getConfByPage());
       }
     }
   );
@@ -59,7 +67,7 @@ function getConfByPage() {
     server: "https://artalk.lihaoyu.cn",
     site: "晓雨杂记",
     useBackendConf: true,
-    locale: "auto",
+    locale: lc.lang.value,
     darkMode: appStore.isDark,
   };
 }
