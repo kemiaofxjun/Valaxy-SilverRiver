@@ -11,7 +11,7 @@ comment: false
 ::: tip
 你可以点击下面的按钮切换语言。
 
-最后更新：2024 / 07 / 23
+Last update: 2025 / 07 / 09
 :::
 
 </div>
@@ -21,7 +21,7 @@ comment: false
 ::: tip
 You can switch languages by clicking the button below.
 
-Last update: 2024 / 07 / 23.
+最后更新：2025 / 07 / 09.
 :::
 
 </div>
@@ -141,6 +141,8 @@ IP 属地精确到城市。
   - 我们使用了多吉云的内容分发网络（CDN）服务；
 - 又拍云: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
   - 我们使用了又拍云的内容分发网络（CDN）服务、对象存储（USS）服务。
+- 腾讯云：[隐私条款](https://cloud.tencent.com/document/product/301/11470)
+  - 我们使用了腾讯云的边缘安全加速（EdgeOne）服务、静态网站托管（EdgeOne Pages）服务。
 
 </div>
 
@@ -255,5 +257,7 @@ In order to maintain the browsing experience of the site, we use some services p
   - We use DogeCloud's content delivery network (CDN) service;
 - Upyun: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
   - We use Upyun's content delivery network (CDN) service and object storage (USS) service.
+- Tencent Cloud (`cloud.tencent.com`)：[隐私条款](https://cloud.tencent.com/document/product/301/11470)
+  - We use Tencent Cloud's Edge Safe Acceleration (EdgeOne) service and static website hosting (EdgeOne Pages) service.
 
 </div>

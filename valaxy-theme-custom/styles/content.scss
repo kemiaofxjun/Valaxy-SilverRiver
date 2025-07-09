@@ -95,3 +95,10 @@ html[data-theme="dark"] .shiki span {
 .content ul:not(:first-child) {
     margin-top: 0;
 }
+
+
+.card-content img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+}
