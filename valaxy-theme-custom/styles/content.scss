@@ -98,7 +98,11 @@ html[data-theme="dark"] .shiki span {
 
 
 .card-content img {
-  max-width: 60%;
+  max-width: 80%;
   height: auto;
   border-radius: 8px;
+}
+
+.card-content .box img {
+    max-width: 100%; // 重置为默认值
 }
