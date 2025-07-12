@@ -7,7 +7,7 @@ cover: https://r2.230225.xyz/2023/05/01/644f65d2d92ae.webp
 tags:
   - CDN
 categories: 
-  - 大蛋糕的安利
+  - 分享
 ---
 又是一个快速的公共 CDN 镜像，感谢 [Zkeq](https://icodeq.com) 提供的服务。
 

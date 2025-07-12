@@ -6,7 +6,7 @@ tags:
   - CakeMC
   - Minecraft
 categories:
-  - 大蛋糕的安利
+  - 分享
 ---
 ## 前言
 

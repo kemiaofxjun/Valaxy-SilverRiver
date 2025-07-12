@@ -7,7 +7,7 @@ cover: https://r2.230225.xyz/2023/05/03/6451e2aacc37e.webp
 tags:
   - CDN
   - 白嫖
-categories: 大蛋糕的安利
+categories: 分享
 ---
 
 花了点时间，简单做出来的。

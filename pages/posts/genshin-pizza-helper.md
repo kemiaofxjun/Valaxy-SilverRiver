@@ -5,7 +5,7 @@ updated: 2022-09-10 20:36:27
 tags:
   - 原神
   - iOS
-categories: 大蛋糕的安利
+categories: 分享
 ---
 emmmm，这个 App 我是在暑假的时候看到的。
 
