@@ -17,7 +17,7 @@
 
                     <div class="order-2 mb-3 lg:order-last lg:col-span-1">
                         <Aside>
-                            <AsidePages />
+                            <AsidePages class="!mb-0" />
                             <!--<AsideTags />-->
                         </Aside>
                     </div>

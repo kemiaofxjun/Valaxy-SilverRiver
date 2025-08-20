@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card !mb-0">
     <div class="p-4">
       <div class="mb-3 text-sm">{{ t("sidebar.pages") }}</div>
       <Pages />
