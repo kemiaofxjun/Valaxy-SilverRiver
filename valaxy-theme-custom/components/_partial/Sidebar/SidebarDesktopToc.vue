@@ -12,6 +12,9 @@ const { t } = useI18n();
             <div class="mb-3 text-sm">{{ t("aside.toc") }}</div>
             <div class="max-h-38 overflow-y-auto">
                 <OutlineItem :headers="headers" :on-click="handleClick" root />
+                <div v-if="headers.length === 0" class="text-gray-500 text-center">
+                    {{ t("aside.no_toc") }}
+                </div>
             </div>
         </div>
     </div>
