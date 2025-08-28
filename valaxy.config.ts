@@ -39,7 +39,7 @@ export default defineValaxyConfig<ThemeConfig>({
           info: "晋 ICP 备 2024031556 号 - 1",
         },
         moe: {
-          enable: true,
+          enable: false,
           info: "20230105",
         },
       },
