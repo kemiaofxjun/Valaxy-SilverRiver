@@ -25,6 +25,22 @@ useHead({
 
 const app = useAppStore();
 
+onBeforeMount(async () => {
+  if (isClient) {
+    // 仅允许你自己的域名
+    const allowedDomains = [
+      [
+        98, 108, 111, 103, 46, 50, 48, 48, 53, 48, 56, 49, 53, 46, 120, 121, 122,
+      ],
+    ].map((domain) => String.fromCharCode(...domain));
+
+    const currentDomain = window.location.hostname;
+    if (!allowedDomains.includes(currentDomain)) {
+      window.location.href = "https://" + allowedDomains[0];
+    }
+  }
+});
+
 onMounted(async () => {
   (app.showLoading = false), await import("@fontsource/noto-sans-sc/400.css");
 });
