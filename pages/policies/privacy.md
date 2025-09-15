@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-title_zh-CN: 隐私政策
+title_zh-CN: 隐私政策(基本跟随上游)
 date: 2023-06-16 10:45:16
 updated: 2024-07-23 12:30:00
 comment: false
@@ -11,7 +11,7 @@ comment: false
 ::: tip
 你可以点击下面的按钮切换语言。
 
-Last update: 2025 / 07 / 09
+Last update: 2025 / 09 / 15
 :::
 
 </div>
@@ -21,7 +21,7 @@ Last update: 2025 / 07 / 09
 ::: tip
 You can switch languages by clicking the button below.
 
-最后更新：2025 / 07 / 09.
+最后更新：2025 / 09 / 15.
 :::
 
 </div>
@@ -137,10 +137,6 @@ IP 属地精确到城市。
   - 我们自行部署并使用了 Umami 开发的统计服务；
 - 阿里云：[隐私声明](https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201902141711_54837.html)
   - 我们使用了阿里云的邮件发送服务、域名解析（DNS）服务；
-- 多吉云: [隐私权政策](https://www.dogecloud.com/page/privacy-policy)
-  - 我们使用了多吉云的内容分发网络（CDN）服务；
-- 又拍云: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
-  - 我们使用了又拍云的内容分发网络（CDN）服务、对象存储（USS）服务。
 - 腾讯云：[隐私条款](https://cloud.tencent.com/document/product/301/11470)
   - 我们使用了腾讯云的边缘安全加速（EdgeOne）服务、静态网站托管（EdgeOne Pages）服务。
 
@@ -253,10 +249,10 @@ In order to maintain the browsing experience of the site, we use some services p
   - We deployed and used the statistical service developed by Umami ourselves;
 - Alibaba Cloud (`aliyun.com`)：[隐私声明](https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201902141711_54837.html)
   - We used Alibaba Cloud's email sending service and domain name resolution (DNS) service;
-- DogeCloud (CN Mainland Only): [隐私权政策](https://www.dogecloud.com/page/privacy-policy)
+<!-- - DogeCloud (CN Mainland Only): [隐私权政策](https://www.dogecloud.com/page/privacy-policy)
   - We use DogeCloud's content delivery network (CDN) service;
 - Upyun: [用户隐私政策](https://help.upyun.com/knowledge-base/%e7%94%a8%e6%88%b7%e9%9a%90%e7%a7%81%e6%94%bf%e7%ad%96/)
-  - We use Upyun's content delivery network (CDN) service and object storage (USS) service.
+  - We use Upyun's content delivery network (CDN) service and object storage (USS) service. -->
 - Tencent Cloud (`cloud.tencent.com`)：[隐私条款](https://cloud.tencent.com/document/product/301/11470)
   - We use Tencent Cloud's Edge Safe Acceleration (EdgeOne) service and static website hosting (EdgeOne Pages) service.
 

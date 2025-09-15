@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { useFrontmatter } from "valaxy";
 import { usePrevNext } from "valaxy";
+import { useAddonWaline } from 'valaxy-addon-waline'
+// import BackToCommentBtn from '../_partial/Sidebar/ToCommentBtn.vue'
 
 const [prev, next] = usePrevNext();
 const frontmatter = useFrontmatter();
@@ -12,6 +14,7 @@ const formatDate = (date: string | number | Date) => {
   };
   return new Date(date).toLocaleDateString("zh-CN", options);
 };
+const addon = useAddonWaline()
 </script>
 
 <template>
@@ -33,7 +36,7 @@ const formatDate = (date: string | number | Date) => {
         {{ Array.isArray(frontmatter.categories) ? frontmatter.categories.flat().join(', ') : frontmatter.categories ?? "未分类" }}
       </p>
       <PostMeta />
-      <AiExcerpt class="mt-6" />
+      <!-- <AiExcerpt class="mt-6" /> -->
       <br />
       <div class="content break-words">
         <TimeWarning />
@@ -67,5 +70,16 @@ const formatDate = (date: string | number | Date) => {
   </div>
   <Donate class="mb-4" />
   <!-- <GoogleAds /> -->
-  <Comment />
+  <!-- <Comment /> -->
+  <div id="comment-anchor" class="scroll-mt-20" />
+  <WalineClient w="full" :options="addon.options" />
+           <!-- <BackToCommentBtn /> -->
 </template>
+
+<style>
+/* 让浏览器滚动时把锚点再往下放 80 px（抵消固定导航） */
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;   /* 5rem = 80 px，按需改 */
+  height: 1px;               /* 只要占位置就行 */
+}
+</style>

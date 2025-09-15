@@ -45,13 +45,21 @@ onMounted(async () => {
             {{ new Date().getFullYear() }}
             <a href="/">{{ siteConfig.title }}</a>
           </p>
+              <VCLiveTime start-time="2025-09-14">
+      <template #live-time-before>
+        <span>本站已运行</span>
+      </template>
+      <template #live-time-after>
+        <!-- <span>后缀</span> -->
+      </template>
+    </VCLiveTime>
           <p v-if="themeConfig.footer.hitokoto?.enable">{{ hitokoto || "用代码表达言语的魅力，用代码书写山河的壮丽。" }}</p>
         </div>
         <div class="text-center lg:text-right">
           <p>
             Powered by <a href="https://valaxy.site" target="_blank">Valaxy</a> · Theme <a href="https://github.com/Big-Cake-jpg/big-cake-jpg.github.io/tree/source/valaxy-theme-custom" target="_blank">SilverRiver</a>
           </p>
-          <p>Designed by <a href="https://www.gxres.net" target="_blank">SliverRiver</a> & Big_Cake</p>
+          <p>Designed by <a href="https://www.gxres.net" target="_blank">SliverRiver</a> & 克喵爱吃卤面</p>
         </div>
       </div>
     </div>

@@ -1,16 +1,17 @@
 ---
 title: 相册集
-date: 2023-05-04 10:45:16
-updated: 2023-05-04 10:45:16
-layout: albums
-albums:
-  - caption: Minecraft
-    url: /albums/minecraft
-    cover: https://r2.230225.xyz/2023/05/04/6452efc59a1d7.webp
-    desc: 自己，朋友，与 Minecraft。
-  - caption: OMORI 同人图
-    url: /albums/omori
-    cover: https://r2.230225.xyz/2023/11/19/65598b804c330.webp
-    desc: 哦茉莉我爱你（不是
+photos:
+  - caption: Me
+    src: https://img.314926.xyz/images/2025/09/15/kemiaoaclumian.webp
+    desc: '我的头像'
+  - caption: 饥荒加载
+    src: https://img.314926.xyz/images/2025/07/30/jihuangcover.webp
+    desc: '饥荒加载'
 comment: false
 ---
+
+<!-- The style of gallery -->
+<VAGallery :photos="frontmatter.photos" />
+
+<!-- You can also use the style of the photo separately -->
+<!-- <VAPhoto :photo="frontmatter.photos[0]" /> -->

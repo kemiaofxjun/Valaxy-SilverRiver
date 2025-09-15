@@ -1,21 +1,22 @@
 import { defineSiteConfig } from "valaxy";
 
 export default defineSiteConfig({
-  url: "https://www.lihaoyu.cn",
-  favicon: "https://blog-api.lihaoyu.cn/images/profile/head.webp",
+  url: "https://blog.20050815.xyz",
+  favicon: "https://img.314926.xyz/images/2025/08/13/no-background-kemiaofxjun.webp",
   lang: "zh-CN",
-  title: "晓雨杂记",
+  languages: ['zh-CN'], // 只启用中文
+  title: "喵洛阁",
   author: {
-    name: "Big_Cake",
-    avatar: "https://blog-api.lihaoyu.cn/images/profile/avatar-128x.webp",
-    email: "me@lihaoyu.cn",
-    link: "https://www.lihaoyu.cn",
+    name: "克喵爱吃卤面",
+    avatar: "https://img.314926.xyz/images/2025/09/15/kemiaoaclumian.webp",
+    email: "me@mail.kemeow.top",
+    link: "https://home.kemeow.top/",
   },
-  description: "于风雨中 承载所有的回忆",
-  subtitle: "也许我们会分别，但我们将永远不会忘记彼此",
+  description: "克喵的书斋",
+  subtitle: "愿你看清一切真相后，依旧热爱你的家人和朋友。",
 
   feed: {
-    favicon: "https://blog-api.lihaoyu.cn/images/profile/head.webp",
+    favicon: "https://img.314926.xyz/images/2025/08/13/no-background-kemiaofxjun.webp",
   },
 
   cdn: {
@@ -31,55 +32,55 @@ export default defineSiteConfig({
     },
     {
       name: "QQ",
-      link: "http://wpa.qq.com/msgrd?v=3&uin=2577117205&site=qq&menu=yes",
+      link: "http://wpa.qq.com/msgrd?v=3&uin=3149261770&site=qq&menu=yes",
       icon: "i-ri-qq-line",
       color: "#12B7F5",
     },
     {
       name: "GitHub",
-      link: "https://github.com/Big-Cake-jpg",
+      link: "https://github.com/kemiaofxjun",
       icon: "i-ri-github-line",
       color: "#6e5494",
     },
     {
       name: "网易云音乐",
-      link: "https://music.163.com/#/user/home?id=3812611237",
+      link: "https://music.163.com/#/user/home?id=1725716511",
       icon: "i-ri-netease-cloud-music-line",
       color: "#C20C0C",
     },
-    {
-      name: "知乎",
-      link: "https://www.zhihu.com/people/bigcake-19",
-      icon: "i-ri-zhihu-line",
-      color: "#0084FF",
-    },
+    // {
+    //   name: "知乎",
+    //   link: "https://www.zhihu.com/people/bigcake-19",
+    //   icon: "i-ri-zhihu-line",
+    //   color: "#0084FF",
+    // },
     {
       name: "哔哩哔哩",
-      link: "https://space.bilibili.com/523235567",
+      link: "https://space.bilibili.com/3546643173477234",
       icon: "i-ri-bilibili-line",
       color: "#FF8EB3",
     },
     {
       name: "Twitter",
-      link: "https://twitter.com/Big_Cake080105",
+      link: "https://twitter.com/kemiaojun",
       icon: "i-ri-twitter-line",
       color: "#1da1f2",
     },
     {
       name: "Telegram Channel",
-      link: "https://t.me/BigCakeBlog",
+      link: "https://t.me/KemiaoJun",
       icon: "i-ri-telegram-line",
       color: "#0088CC",
     },
-    {
-      name: "百度贴吧",
-      link: "https://tieba.baidu.com/home/main?id=tb.1.f0f48c80.0RMWKRqi00nEW65GQhsxQA?t=1586957539&fr=index",
-      icon: "i-ri-baidu-line",
-      color: "#317EF3",
-    },
+    // {
+    //   name: "百度贴吧",
+    //   link: "https://tieba.baidu.com/home/main?id=tb.1.f0f48c80.0RMWKRqi00nEW65GQhsxQA?t=1586957539&fr=index",
+    //   icon: "i-ri-baidu-line",
+    //   color: "#317EF3",
+    // },
     {
       name: "E-Mail",
-      link: "mailto:me@lihaoyu.cn",
+      link: "mailto:me@mail.kemeow.top",
       icon: "i-ri-mail-line",
       color: "#8E71C1",
     },
@@ -96,25 +97,25 @@ export default defineSiteConfig({
     methods: [
       {
         name: "支付宝",
-        url: "https://r2.230225.xyz/2023/05/03/64520662bf7cc.webp",
+        url: "https://img.314926.xyz/images/2025/07/12/alipay.webp",
         color: "#00A3EE",
         icon: "i-ri-alipay-line",
       },
       {
         name: "QQ 支付",
-        url: "https://r2.230225.xyz/2023/05/03/645205f8edce4.webp",
+        url: "https://img.314926.xyz/images/2025/09/15/QQ-pay.webp",
         color: "#12B7F5",
         icon: "i-ri-qq-line",
       },
       {
         name: "微信支付",
-        url: "https://r2.230225.xyz/2023/05/03/6452066936578.webp",
+        url: "https://img.314926.xyz/images/2025/07/12/wechat.webp",
         color: "#2DC100",
         icon: "i-ri-wechat-pay-line",
       },
       {
         name: "爱发电",
-        url: "https://afdian.com/a/Big_Cake2577117205",
+        url: "https://afdian.com/a/kemiaofx_me",
         color: "#936be5",
         icon: "i-ri-flashlight-line",
       },

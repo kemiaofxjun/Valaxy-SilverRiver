@@ -9,9 +9,9 @@
           
         </p>
       </li>
-      <li v-for="link in friendLinks" :key="link.url" v-else>
-        <a :href="link.url" target="_blank">
-          {{ link.blog }}
+      <li v-for="link in friendLinks" :key="link.link" v-else>
+        <a :href="link.link" target="_blank">
+          {{ link.name }}
         </a>
       </li>
     </ul>
@@ -26,11 +26,11 @@ const err = ref<string | null>(null);
 
 interface FriendLink {
   avatar: string;
-  blog: string;
-  color: string;
-  desc: string;
+  link: string;
+  // color: string;
+  descr: string;
   name: string;
-  url: string;
+  // url: string;
 }
 
 let friendLinks = ref<FriendLink[]>([]);
@@ -38,7 +38,7 @@ let friendLinks = ref<FriendLink[]>([]);
 onMounted(async () => {
   try {
     const response = await axios.get(
-      "https://api.lihaoyu.cn/blog/links/global"
+      "https://link-app.20050815.xyz/api/links?status=approved"
     );
     friendLinks.value = shuffleArray(response.data);
   } catch (error) {

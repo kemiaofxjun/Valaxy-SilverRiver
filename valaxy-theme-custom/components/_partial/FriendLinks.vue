@@ -6,10 +6,10 @@ import { computed, ref } from "vue";
 interface LinkType {
   avatar: string;
   name: string;
-  url: string;
-  color: string;
-  blog: string;
-  desc: string;
+  link: string;
+  // color: string;
+  // blog: string;
+  descr: string;
   healthy: boolean;
 }
 
@@ -59,8 +59,8 @@ const placeholders = Array(placeholderCount).fill(null);
 
     <a 
       v-for="link in filteredData" 
-      :key="link.url" 
-      :href="link.url" 
+      :key="link.link" 
+      :href="link.link" 
       target="_blank" 
     >
       <div class="box h-full">
@@ -81,9 +81,9 @@ const placeholders = Array(placeholderCount).fill(null);
           <div class="media-content truncate">
             <div class="content text-nowrap">
               <p class="truncate">
-                <strong>{{ link.blog }}</strong>
+                <strong>{{ link.name }}</strong>
                 <br />
-                {{ link.desc }}
+                {{ link.descr }}
               </p>
             </div>
           </div>

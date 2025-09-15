@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 const upyun = {
-  name: "又拍云",
-  url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral",
-  logo: "https://objects.lihaoyu.cn/bigcake-blog-images/2024/07/23/669f25a357c6e.webp",
+  name: "Cloudflare R2存储",
+  url: "https://dash.cloudflare.com/",
+  logo: "https://favicon.im/dash.cloudflare.com",
 };
 </script>
 

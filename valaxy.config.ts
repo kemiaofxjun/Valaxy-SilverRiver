@@ -2,6 +2,13 @@ import { defineValaxyConfig } from "valaxy";
 import type { ThemeConfig } from "valaxy-theme-custom";
 import { addonLightGallery } from "valaxy-addon-lightgallery";
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
+import { addonComponents } from 'valaxy-addon-components'
+import { addonWaline } from 'valaxy-addon-waline'
+import { addonMeting } from 'valaxy-addon-meting'
+import { addonBangumi } from 'valaxy-addon-bangumi'
+import { addonVercount } from 'valaxy-addon-vercount'
+import { addonFace } from 'valaxy-addon-face'
+import { addonGitLog } from 'valaxy-addon-git-log'
 
 /**
  * User Config
@@ -9,7 +16,41 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify';
 export default defineValaxyConfig<ThemeConfig>({
   addons: [
     addonLightGallery(),
+    addonComponents(),
+    addonWaline({
+      serverURL: 'https://waline.kemeow.top',
+    }),
+        addonMeting({
+      global: true,
+      /** @see https://github.com/metowolf/MetingJS */
+      props: {
+        id: '13681647281',
+        server: 'netease',
+        type: 'playlist',
+        animationIn: 'true',
+      },
+    }),
+        addonBangumi({
+      api: 'https://yi_xiao_jiu-bangumi.web.val.run',
+      bilibiliUid: '3546643173477234',
+      bgmEnabled: false,
+        }),
+    addonVercount(),
+        addonFace({
+      // 配置
+      defaultSuffix: 'webp'
+        }),
+     addonGitLog({
+      repositoryUrl: 'https://github.com/kemiaofxjun/Valaxy-SilverRiver.git',
+    }),
   ],
+
+  siteConfig: {
+    // 启用评论
+    comment: {
+      enable: true
+    },
+  },
 
   vite: {
     optimizeDeps: {
@@ -28,19 +69,19 @@ export default defineValaxyConfig<ThemeConfig>({
 
   themeConfig: {
     author: {
-      slogan: "也许我们会分别，但我们将永远不会忘记彼此",
+      slogan: "每一段旅行都有终点~",
     },
 
     footer: {
-      since: 2021,
+      since: 2025,
       beian: {
         icp: {
-          enable: true,
+          enable: false,
           info: "晋 ICP 备 2024031556 号 - 1",
         },
         moe: {
-          enable: false,
-          info: "20230105",
+          enable: true,
+          info: "20250530",
         },
       },
       hitokoto: {
@@ -65,13 +106,33 @@ export default defineValaxyConfig<ThemeConfig>({
         url: "/policies/privacy",
       },
       {
+        name: "微语动态",
+        url: "/talk",
+      },
+      {
+        name: "微语即刻",
+        url: "/moment",
+      },
+      {
+        name: "番剧",
+        url: "/bangumi",
+      },
+      {
+        name: "朋友圈",
+        url: "/fc",
+      },
+      {
+        name: "相册集",
+        url: "/albums",
+      },
+      {
         name: "关于我",
         url: "/about",
       },
-      {
-        name: "状态监控",
-        url: "https://status.lihaoyu.cn",
-      },
+      // {
+      //   name: "状态监控",
+      //   url: "https://status.kemeow.top",
+      // },
     ],
 
     quickAccess: [
@@ -83,9 +144,9 @@ export default defineValaxyConfig<ThemeConfig>({
     ],
 
     announcement: {
-      enable: false,
-      type: "warning",
-      content: "部分服务正在维护。有关详细信息，请参阅：https://status.lihaoyu.cn",
+      enable: true,
+      type: "info",
+      content: "欢迎来到克喵的博客！这里记录了我生活日常、资源分享和踩坑教程，希望你能喜欢！",
     },
 
     valaxyDarkOptions: {

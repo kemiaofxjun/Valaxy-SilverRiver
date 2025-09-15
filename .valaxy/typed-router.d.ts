@@ -26,8 +26,11 @@ declare module 'vue-router/auto-routes' {
     '/albums/minecraft': RouteRecordInfo<'/albums/minecraft', '/albums/minecraft', Record<never, never>, Record<never, never>>,
     '/albums/omori': RouteRecordInfo<'/albums/omori', '/albums/omori', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
+    '/bangumi/': RouteRecordInfo<'/bangumi/', '/bangumi', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
+    '/fc/': RouteRecordInfo<'/fc/', '/fc', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
+    '/moment/': RouteRecordInfo<'/moment/', '/moment', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/policies/privacy': RouteRecordInfo<'/policies/privacy', '/policies/privacy', Record<never, never>, Record<never, never>>,
     '/posts/2-years-anniversary': RouteRecordInfo<'/posts/2-years-anniversary', '/posts/2-years-anniversary', Record<never, never>, Record<never, never>>,
@@ -90,5 +93,334 @@ declare module 'vue-router/auto-routes' {
     '/posts/zhongkao-grades': RouteRecordInfo<'/posts/zhongkao-grades', '/posts/zhongkao-grades', Record<never, never>, Record<never, never>>,
     '/search/': RouteRecordInfo<'/search/', '/search', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
+    '/talk/': RouteRecordInfo<'/talk/', '/talk', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'valaxy-theme-custom/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy@0.26.6_@babel+parser_2c27a91d13cce138c2eb328491f950f5/node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/albums/index.md': {
+      routes: '/albums/'
+      views: never
+    }
+    'pages/albums/minecraft.md': {
+      routes: '/albums/minecraft'
+      views: never
+    }
+    'pages/albums/omori.md': {
+      routes: '/albums/omori'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/bangumi/index.md': {
+      routes: '/bangumi/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/fc/index.md': {
+      routes: '/fc/'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'pages/moment/index.md': {
+      routes: '/moment/'
+      views: never
+    }
+    'valaxy-theme-custom/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'pages/policies/privacy.md': {
+      routes: '/policies/privacy'
+      views: never
+    }
+    'pages/posts/2-years-anniversary.md': {
+      routes: '/posts/2-years-anniversary'
+      views: never
+    }
+    'pages/posts/2023-review.md': {
+      routes: '/posts/2023-review'
+      views: never
+    }
+    'pages/posts/2023-senior-high-school-entrance-examination.md': {
+      routes: '/posts/2023-senior-high-school-entrance-examination'
+      views: never
+    }
+    'pages/posts/2024-review.md': {
+      routes: '/posts/2024-review'
+      views: never
+    }
+    'pages/posts/a-little-teacher.md': {
+      routes: '/posts/a-little-teacher'
+      views: never
+    }
+    'pages/posts/about-github-access.md': {
+      routes: '/posts/about-github-access'
+      views: never
+    }
+    'pages/posts/about-the-security-vulnerability-of-hiper.md': {
+      routes: '/posts/about-the-security-vulnerability-of-hiper'
+      views: never
+    }
+    'pages/posts/after-joined-travellings.md': {
+      routes: '/posts/after-joined-travellings'
+      views: never
+    }
+    'pages/posts/after-zhongkao.md': {
+      routes: '/posts/after-zhongkao'
+      views: never
+    }
+    'pages/posts/apple-music-experience.md': {
+      routes: '/posts/apple-music-experience'
+      views: never
+    }
+    'pages/posts/backblaze-b2.md': {
+      routes: '/posts/backblaze-b2'
+      views: never
+    }
+    'pages/posts/bakaxl-launcher.md': {
+      routes: '/posts/bakaxl-launcher'
+      views: never
+    }
+    'pages/posts/beautify-your-vscode.md': {
+      routes: '/posts/beautify-your-vscode'
+      views: never
+    }
+    'pages/posts/between-the-stations-are-fragments-of-life.md': {
+      routes: '/posts/between-the-stations-are-fragments-of-life'
+      views: never
+    }
+    'pages/posts/build-a-hexo-blog.md': {
+      routes: '/posts/build-a-hexo-blog'
+      views: never
+    }
+    'pages/posts/build-hypixel-boost-ip.md': {
+      routes: '/posts/build-hypixel-boost-ip'
+      views: never
+    }
+    'pages/posts/build-your-minecraft-server.md': {
+      routes: '/posts/build-your-minecraft-server'
+      views: never
+    }
+    'pages/posts/chat-prologu-by-the-windows.md': {
+      routes: '/posts/chat-prologu-by-the-windows'
+      views: never
+    }
+    'pages/posts/chat-prologu-by-the-windows-2.md': {
+      routes: '/posts/chat-prologu-by-the-windows-2'
+      views: never
+    }
+    'pages/posts/ddos-attack-record.md': {
+      routes: '/posts/ddos-attack-record'
+      views: never
+    }
+    'pages/posts/deploy-valaxy-blog-to-cloudflare-pages.md': {
+      routes: '/posts/deploy-valaxy-blog-to-cloudflare-pages'
+      views: never
+    }
+    'pages/posts/deploy-vuepress-v1-docs-to-vercel.md': {
+      routes: '/posts/deploy-vuepress-v1-docs-to-vercel'
+      views: never
+    }
+    'pages/posts/edgeone-yes.md': {
+      routes: '/posts/edgeone-yes'
+      views: never
+    }
+    'pages/posts/force-enable-apple-intelligence-on-china-iphone-12.md': {
+      routes: '/posts/force-enable-apple-intelligence-on-china-iphone-12'
+      views: never
+    }
+    'pages/posts/genshin-pizza-helper.md': {
+      routes: '/posts/genshin-pizza-helper'
+      views: never
+    }
+    'pages/posts/goodbye-npp.md': {
+      routes: '/posts/goodbye-npp'
+      views: never
+    }
+    'pages/posts/google-translate-unavailable.md': {
+      routes: '/posts/google-translate-unavailable'
+      views: never
+    }
+    'pages/posts/happy-mid-autumn-festival.md': {
+      routes: '/posts/happy-mid-autumn-festival'
+      views: never
+    }
+    'pages/posts/hello-world.md': {
+      routes: '/posts/hello-world'
+      views: never
+    }
+    'pages/posts/hengshui-disease.md': {
+      routes: '/posts/hengshui-disease'
+      views: never
+    }
+    'pages/posts/jsdelivr-mirror.md': {
+      routes: '/posts/jsdelivr-mirror'
+      views: never
+    }
+    'pages/posts/launcher-develop.md': {
+      routes: '/posts/launcher-develop'
+      views: never
+    }
+    'pages/posts/lyricease.md': {
+      routes: '/posts/lyricease'
+      views: never
+    }
+    'pages/posts/maimai-newbee.md': {
+      routes: '/posts/maimai-newbee'
+      views: never
+    }
+    'pages/posts/mem-reduct.md': {
+      routes: '/posts/mem-reduct'
+      views: never
+    }
+    'pages/posts/miaorun-public-cdn.md': {
+      routes: '/posts/miaorun-public-cdn'
+      views: never
+    }
+    'pages/posts/midterm-review.md': {
+      routes: '/posts/midterm-review'
+      views: never
+    }
+    'pages/posts/migrate-waline-db-to-mongodb.md': {
+      routes: '/posts/migrate-waline-db-to-mongodb'
+      views: never
+    }
+    'pages/posts/minecraft-problems-solve.md': {
+      routes: '/posts/minecraft-problems-solve'
+      views: never
+    }
+    'pages/posts/my-mcserver.md': {
+      routes: '/posts/my-mcserver'
+      views: never
+    }
+    'pages/posts/my-opinions-about-that-post.md': {
+      routes: '/posts/my-opinions-about-that-post'
+      views: never
+    }
+    'pages/posts/my-poor-mathematics.md': {
+      routes: '/posts/my-poor-mathematics'
+      views: never
+    }
+    'pages/posts/my-taste-of-music.md': {
+      routes: '/posts/my-taste-of-music'
+      views: never
+    }
+    'pages/posts/netease-and-minecraft.md': {
+      routes: '/posts/netease-and-minecraft'
+      views: never
+    }
+    'pages/posts/omori.md': {
+      routes: '/posts/omori'
+      views: never
+    }
+    'pages/posts/play-minecraft-with-friends.md': {
+      routes: '/posts/play-minecraft-with-friends'
+      views: never
+    }
+    'pages/posts/reinstall-my-pc-os.md': {
+      routes: '/posts/reinstall-my-pc-os'
+      views: never
+    }
+    'pages/posts/rewrite-my-blog.md': {
+      routes: '/posts/rewrite-my-blog'
+      views: never
+    }
+    'pages/posts/site-speed-optimization.md': {
+      routes: '/posts/site-speed-optimization'
+      views: never
+    }
+    'pages/posts/talk-about-communications.md': {
+      routes: '/posts/talk-about-communications'
+      views: never
+    }
+    'pages/posts/use-artalk-in-valaxy.md': {
+      routes: '/posts/use-artalk-in-valaxy'
+      views: never
+    }
+    'pages/posts/use-oneplus-6t-in-2025-1.md': {
+      routes: '/posts/use-oneplus-6t-in-2025-1'
+      views: never
+    }
+    'pages/posts/valaxy.md': {
+      routes: '/posts/valaxy'
+      views: never
+    }
+    'pages/posts/whats-changed-to-my-blog.md': {
+      routes: '/posts/whats-changed-to-my-blog'
+      views: never
+    }
+    'pages/posts/windows-delievry-optimize.md': {
+      routes: '/posts/windows-delievry-optimize'
+      views: never
+    }
+    'pages/posts/windows-search-optimization.md': {
+      routes: '/posts/windows-search-optimization'
+      views: never
+    }
+    'pages/posts/xiaoyu-and-linxiaoyu.md': {
+      routes: '/posts/xiaoyu-and-linxiaoyu'
+      views: never
+    }
+    'pages/posts/zhongkao-grades.md': {
+      routes: '/posts/zhongkao-grades'
+      views: never
+    }
+    'pages/search/index.md': {
+      routes: '/search/'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+    'pages/talk/index.md': {
+      routes: '/talk/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
