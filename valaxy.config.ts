@@ -27,7 +27,11 @@ export default defineValaxyConfig<ThemeConfig>({
         id: '13681647281',
         server: 'netease',
         type: 'playlist',
-        animationIn: 'true',
+      },
+      options: {
+        lyricHidden: true,   // ← 关闭歌词面板
+        autoHidden: true,   // 保持默认
+        animationIn: true,
       },
     }),
         addonBangumi({
@@ -35,7 +39,9 @@ export default defineValaxyConfig<ThemeConfig>({
       bilibiliUid: '3546643173477234',
       bgmEnabled: false,
         }),
-    addonVercount(),
+        addonVercount({
+      api: 'cn'
+    }),
         addonFace({
       // 配置
       defaultSuffix: 'webp'

@@ -33,64 +33,20 @@ declare module 'vue-router/auto-routes' {
     '/moment/': RouteRecordInfo<'/moment/', '/moment', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/policies/privacy': RouteRecordInfo<'/policies/privacy', '/policies/privacy', Record<never, never>, Record<never, never>>,
-    '/posts/2-years-anniversary': RouteRecordInfo<'/posts/2-years-anniversary', '/posts/2-years-anniversary', Record<never, never>, Record<never, never>>,
-    '/posts/2023-review': RouteRecordInfo<'/posts/2023-review', '/posts/2023-review', Record<never, never>, Record<never, never>>,
-    '/posts/2023-senior-high-school-entrance-examination': RouteRecordInfo<'/posts/2023-senior-high-school-entrance-examination', '/posts/2023-senior-high-school-entrance-examination', Record<never, never>, Record<never, never>>,
-    '/posts/2024-review': RouteRecordInfo<'/posts/2024-review', '/posts/2024-review', Record<never, never>, Record<never, never>>,
-    '/posts/a-little-teacher': RouteRecordInfo<'/posts/a-little-teacher', '/posts/a-little-teacher', Record<never, never>, Record<never, never>>,
-    '/posts/about-github-access': RouteRecordInfo<'/posts/about-github-access', '/posts/about-github-access', Record<never, never>, Record<never, never>>,
-    '/posts/about-the-security-vulnerability-of-hiper': RouteRecordInfo<'/posts/about-the-security-vulnerability-of-hiper', '/posts/about-the-security-vulnerability-of-hiper', Record<never, never>, Record<never, never>>,
-    '/posts/after-joined-travellings': RouteRecordInfo<'/posts/after-joined-travellings', '/posts/after-joined-travellings', Record<never, never>, Record<never, never>>,
-    '/posts/after-zhongkao': RouteRecordInfo<'/posts/after-zhongkao', '/posts/after-zhongkao', Record<never, never>, Record<never, never>>,
-    '/posts/apple-music-experience': RouteRecordInfo<'/posts/apple-music-experience', '/posts/apple-music-experience', Record<never, never>, Record<never, never>>,
-    '/posts/backblaze-b2': RouteRecordInfo<'/posts/backblaze-b2', '/posts/backblaze-b2', Record<never, never>, Record<never, never>>,
-    '/posts/bakaxl-launcher': RouteRecordInfo<'/posts/bakaxl-launcher', '/posts/bakaxl-launcher', Record<never, never>, Record<never, never>>,
-    '/posts/beautify-your-vscode': RouteRecordInfo<'/posts/beautify-your-vscode', '/posts/beautify-your-vscode', Record<never, never>, Record<never, never>>,
-    '/posts/between-the-stations-are-fragments-of-life': RouteRecordInfo<'/posts/between-the-stations-are-fragments-of-life', '/posts/between-the-stations-are-fragments-of-life', Record<never, never>, Record<never, never>>,
-    '/posts/build-a-hexo-blog': RouteRecordInfo<'/posts/build-a-hexo-blog', '/posts/build-a-hexo-blog', Record<never, never>, Record<never, never>>,
-    '/posts/build-hypixel-boost-ip': RouteRecordInfo<'/posts/build-hypixel-boost-ip', '/posts/build-hypixel-boost-ip', Record<never, never>, Record<never, never>>,
-    '/posts/build-your-minecraft-server': RouteRecordInfo<'/posts/build-your-minecraft-server', '/posts/build-your-minecraft-server', Record<never, never>, Record<never, never>>,
-    '/posts/chat-prologu-by-the-windows': RouteRecordInfo<'/posts/chat-prologu-by-the-windows', '/posts/chat-prologu-by-the-windows', Record<never, never>, Record<never, never>>,
-    '/posts/chat-prologu-by-the-windows-2': RouteRecordInfo<'/posts/chat-prologu-by-the-windows-2', '/posts/chat-prologu-by-the-windows-2', Record<never, never>, Record<never, never>>,
-    '/posts/ddos-attack-record': RouteRecordInfo<'/posts/ddos-attack-record', '/posts/ddos-attack-record', Record<never, never>, Record<never, never>>,
-    '/posts/deploy-valaxy-blog-to-cloudflare-pages': RouteRecordInfo<'/posts/deploy-valaxy-blog-to-cloudflare-pages', '/posts/deploy-valaxy-blog-to-cloudflare-pages', Record<never, never>, Record<never, never>>,
-    '/posts/deploy-vuepress-v1-docs-to-vercel': RouteRecordInfo<'/posts/deploy-vuepress-v1-docs-to-vercel', '/posts/deploy-vuepress-v1-docs-to-vercel', Record<never, never>, Record<never, never>>,
-    '/posts/edgeone-yes': RouteRecordInfo<'/posts/edgeone-yes', '/posts/edgeone-yes', Record<never, never>, Record<never, never>>,
-    '/posts/force-enable-apple-intelligence-on-china-iphone-12': RouteRecordInfo<'/posts/force-enable-apple-intelligence-on-china-iphone-12', '/posts/force-enable-apple-intelligence-on-china-iphone-12', Record<never, never>, Record<never, never>>,
-    '/posts/genshin-pizza-helper': RouteRecordInfo<'/posts/genshin-pizza-helper', '/posts/genshin-pizza-helper', Record<never, never>, Record<never, never>>,
-    '/posts/goodbye-npp': RouteRecordInfo<'/posts/goodbye-npp', '/posts/goodbye-npp', Record<never, never>, Record<never, never>>,
-    '/posts/google-translate-unavailable': RouteRecordInfo<'/posts/google-translate-unavailable', '/posts/google-translate-unavailable', Record<never, never>, Record<never, never>>,
-    '/posts/happy-mid-autumn-festival': RouteRecordInfo<'/posts/happy-mid-autumn-festival', '/posts/happy-mid-autumn-festival', Record<never, never>, Record<never, never>>,
-    '/posts/hello-world': RouteRecordInfo<'/posts/hello-world', '/posts/hello-world', Record<never, never>, Record<never, never>>,
-    '/posts/hengshui-disease': RouteRecordInfo<'/posts/hengshui-disease', '/posts/hengshui-disease', Record<never, never>, Record<never, never>>,
-    '/posts/jsdelivr-mirror': RouteRecordInfo<'/posts/jsdelivr-mirror', '/posts/jsdelivr-mirror', Record<never, never>, Record<never, never>>,
-    '/posts/launcher-develop': RouteRecordInfo<'/posts/launcher-develop', '/posts/launcher-develop', Record<never, never>, Record<never, never>>,
-    '/posts/lyricease': RouteRecordInfo<'/posts/lyricease', '/posts/lyricease', Record<never, never>, Record<never, never>>,
-    '/posts/maimai-newbee': RouteRecordInfo<'/posts/maimai-newbee', '/posts/maimai-newbee', Record<never, never>, Record<never, never>>,
-    '/posts/mem-reduct': RouteRecordInfo<'/posts/mem-reduct', '/posts/mem-reduct', Record<never, never>, Record<never, never>>,
-    '/posts/miaorun-public-cdn': RouteRecordInfo<'/posts/miaorun-public-cdn', '/posts/miaorun-public-cdn', Record<never, never>, Record<never, never>>,
-    '/posts/midterm-review': RouteRecordInfo<'/posts/midterm-review', '/posts/midterm-review', Record<never, never>, Record<never, never>>,
-    '/posts/migrate-waline-db-to-mongodb': RouteRecordInfo<'/posts/migrate-waline-db-to-mongodb', '/posts/migrate-waline-db-to-mongodb', Record<never, never>, Record<never, never>>,
-    '/posts/minecraft-problems-solve': RouteRecordInfo<'/posts/minecraft-problems-solve', '/posts/minecraft-problems-solve', Record<never, never>, Record<never, never>>,
-    '/posts/my-mcserver': RouteRecordInfo<'/posts/my-mcserver', '/posts/my-mcserver', Record<never, never>, Record<never, never>>,
-    '/posts/my-opinions-about-that-post': RouteRecordInfo<'/posts/my-opinions-about-that-post', '/posts/my-opinions-about-that-post', Record<never, never>, Record<never, never>>,
-    '/posts/my-poor-mathematics': RouteRecordInfo<'/posts/my-poor-mathematics', '/posts/my-poor-mathematics', Record<never, never>, Record<never, never>>,
-    '/posts/my-taste-of-music': RouteRecordInfo<'/posts/my-taste-of-music', '/posts/my-taste-of-music', Record<never, never>, Record<never, never>>,
-    '/posts/netease-and-minecraft': RouteRecordInfo<'/posts/netease-and-minecraft', '/posts/netease-and-minecraft', Record<never, never>, Record<never, never>>,
-    '/posts/omori': RouteRecordInfo<'/posts/omori', '/posts/omori', Record<never, never>, Record<never, never>>,
-    '/posts/play-minecraft-with-friends': RouteRecordInfo<'/posts/play-minecraft-with-friends', '/posts/play-minecraft-with-friends', Record<never, never>, Record<never, never>>,
-    '/posts/reinstall-my-pc-os': RouteRecordInfo<'/posts/reinstall-my-pc-os', '/posts/reinstall-my-pc-os', Record<never, never>, Record<never, never>>,
-    '/posts/rewrite-my-blog': RouteRecordInfo<'/posts/rewrite-my-blog', '/posts/rewrite-my-blog', Record<never, never>, Record<never, never>>,
-    '/posts/site-speed-optimization': RouteRecordInfo<'/posts/site-speed-optimization', '/posts/site-speed-optimization', Record<never, never>, Record<never, never>>,
-    '/posts/talk-about-communications': RouteRecordInfo<'/posts/talk-about-communications', '/posts/talk-about-communications', Record<never, never>, Record<never, never>>,
-    '/posts/use-artalk-in-valaxy': RouteRecordInfo<'/posts/use-artalk-in-valaxy', '/posts/use-artalk-in-valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/use-oneplus-6t-in-2025-1': RouteRecordInfo<'/posts/use-oneplus-6t-in-2025-1', '/posts/use-oneplus-6t-in-2025-1', Record<never, never>, Record<never, never>>,
-    '/posts/valaxy': RouteRecordInfo<'/posts/valaxy', '/posts/valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/whats-changed-to-my-blog': RouteRecordInfo<'/posts/whats-changed-to-my-blog', '/posts/whats-changed-to-my-blog', Record<never, never>, Record<never, never>>,
-    '/posts/windows-delievry-optimize': RouteRecordInfo<'/posts/windows-delievry-optimize', '/posts/windows-delievry-optimize', Record<never, never>, Record<never, never>>,
-    '/posts/windows-search-optimization': RouteRecordInfo<'/posts/windows-search-optimization', '/posts/windows-search-optimization', Record<never, never>, Record<never, never>>,
-    '/posts/xiaoyu-and-linxiaoyu': RouteRecordInfo<'/posts/xiaoyu-and-linxiaoyu', '/posts/xiaoyu-and-linxiaoyu', Record<never, never>, Record<never, never>>,
-    '/posts/zhongkao-grades': RouteRecordInfo<'/posts/zhongkao-grades', '/posts/zhongkao-grades', Record<never, never>, Record<never, never>>,
+    '/posts/git-tongbu': RouteRecordInfo<'/posts/git-tongbu', '/posts/git-tongbu', Record<never, never>, Record<never, never>>,
+    '/posts/hexo-beiwang': RouteRecordInfo<'/posts/hexo-beiwang', '/posts/hexo-beiwang', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-biaotiyufa': RouteRecordInfo<'/posts/markdown-biaotiyufa', '/posts/markdown-biaotiyufa', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-duanluoyufa': RouteRecordInfo<'/posts/markdown-duanluoyufa', '/posts/markdown-duanluoyufa', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-dulanbiao': RouteRecordInfo<'/posts/markdown-dulanbiao', '/posts/markdown-dulanbiao', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-huanhangyuf': RouteRecordInfo<'/posts/markdown-huanhangyuf', '/posts/markdown-huanhangyuf', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-qiangdiaoyufa': RouteRecordInfo<'/posts/markdown-qiangdiaoyufa', '/posts/markdown-qiangdiaoyufa', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-sulanbiao': RouteRecordInfo<'/posts/markdown-sulanbiao', '/posts/markdown-sulanbiao', Record<never, never>, Record<never, never>>,
+    '/posts/telegram-music': RouteRecordInfo<'/posts/telegram-music', '/posts/telegram-music', Record<never, never>, Record<never, never>>,
+    '/posts/tgtalk-deploy': RouteRecordInfo<'/posts/tgtalk-deploy', '/posts/tgtalk-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/umami-deploy': RouteRecordInfo<'/posts/umami-deploy', '/posts/umami-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/waline-deploy': RouteRecordInfo<'/posts/waline-deploy', '/posts/waline-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/zyfx-drop': RouteRecordInfo<'/posts/zyfx-drop', '/posts/zyfx-drop', Record<never, never>, Record<never, never>>,
+    '/posts/zyfx-toolooz': RouteRecordInfo<'/posts/zyfx-toolooz', '/posts/zyfx-toolooz', Record<never, never>, Record<never, never>>,
     '/search/': RouteRecordInfo<'/search/', '/search', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
     '/talk/': RouteRecordInfo<'/talk/', '/talk', Record<never, never>, Record<never, never>>,
@@ -167,236 +123,60 @@ declare module 'vue-router/auto-routes' {
       routes: '/policies/privacy'
       views: never
     }
-    'pages/posts/2-years-anniversary.md': {
-      routes: '/posts/2-years-anniversary'
+    'pages/posts/git-tongbu.md': {
+      routes: '/posts/git-tongbu'
       views: never
     }
-    'pages/posts/2023-review.md': {
-      routes: '/posts/2023-review'
+    'pages/posts/hexo-beiwang.md': {
+      routes: '/posts/hexo-beiwang'
       views: never
     }
-    'pages/posts/2023-senior-high-school-entrance-examination.md': {
-      routes: '/posts/2023-senior-high-school-entrance-examination'
+    'pages/posts/markdown-biaotiyufa.md': {
+      routes: '/posts/markdown-biaotiyufa'
       views: never
     }
-    'pages/posts/2024-review.md': {
-      routes: '/posts/2024-review'
+    'pages/posts/markdown-duanluoyufa.md': {
+      routes: '/posts/markdown-duanluoyufa'
       views: never
     }
-    'pages/posts/a-little-teacher.md': {
-      routes: '/posts/a-little-teacher'
+    'pages/posts/markdown-dulanbiao.md': {
+      routes: '/posts/markdown-dulanbiao'
       views: never
     }
-    'pages/posts/about-github-access.md': {
-      routes: '/posts/about-github-access'
+    'pages/posts/markdown-huanhangyuf.md': {
+      routes: '/posts/markdown-huanhangyuf'
       views: never
     }
-    'pages/posts/about-the-security-vulnerability-of-hiper.md': {
-      routes: '/posts/about-the-security-vulnerability-of-hiper'
+    'pages/posts/markdown-qiangdiaoyufa.md': {
+      routes: '/posts/markdown-qiangdiaoyufa'
       views: never
     }
-    'pages/posts/after-joined-travellings.md': {
-      routes: '/posts/after-joined-travellings'
+    'pages/posts/markdown-sulanbiao.md': {
+      routes: '/posts/markdown-sulanbiao'
       views: never
     }
-    'pages/posts/after-zhongkao.md': {
-      routes: '/posts/after-zhongkao'
+    'pages/posts/telegram-music.md': {
+      routes: '/posts/telegram-music'
       views: never
     }
-    'pages/posts/apple-music-experience.md': {
-      routes: '/posts/apple-music-experience'
+    'pages/posts/tgtalk-deploy.md': {
+      routes: '/posts/tgtalk-deploy'
       views: never
     }
-    'pages/posts/backblaze-b2.md': {
-      routes: '/posts/backblaze-b2'
+    'pages/posts/umami-deploy.md': {
+      routes: '/posts/umami-deploy'
       views: never
     }
-    'pages/posts/bakaxl-launcher.md': {
-      routes: '/posts/bakaxl-launcher'
+    'pages/posts/waline-deploy.md': {
+      routes: '/posts/waline-deploy'
       views: never
     }
-    'pages/posts/beautify-your-vscode.md': {
-      routes: '/posts/beautify-your-vscode'
+    'pages/posts/zyfx-drop.md': {
+      routes: '/posts/zyfx-drop'
       views: never
     }
-    'pages/posts/between-the-stations-are-fragments-of-life.md': {
-      routes: '/posts/between-the-stations-are-fragments-of-life'
-      views: never
-    }
-    'pages/posts/build-a-hexo-blog.md': {
-      routes: '/posts/build-a-hexo-blog'
-      views: never
-    }
-    'pages/posts/build-hypixel-boost-ip.md': {
-      routes: '/posts/build-hypixel-boost-ip'
-      views: never
-    }
-    'pages/posts/build-your-minecraft-server.md': {
-      routes: '/posts/build-your-minecraft-server'
-      views: never
-    }
-    'pages/posts/chat-prologu-by-the-windows.md': {
-      routes: '/posts/chat-prologu-by-the-windows'
-      views: never
-    }
-    'pages/posts/chat-prologu-by-the-windows-2.md': {
-      routes: '/posts/chat-prologu-by-the-windows-2'
-      views: never
-    }
-    'pages/posts/ddos-attack-record.md': {
-      routes: '/posts/ddos-attack-record'
-      views: never
-    }
-    'pages/posts/deploy-valaxy-blog-to-cloudflare-pages.md': {
-      routes: '/posts/deploy-valaxy-blog-to-cloudflare-pages'
-      views: never
-    }
-    'pages/posts/deploy-vuepress-v1-docs-to-vercel.md': {
-      routes: '/posts/deploy-vuepress-v1-docs-to-vercel'
-      views: never
-    }
-    'pages/posts/edgeone-yes.md': {
-      routes: '/posts/edgeone-yes'
-      views: never
-    }
-    'pages/posts/force-enable-apple-intelligence-on-china-iphone-12.md': {
-      routes: '/posts/force-enable-apple-intelligence-on-china-iphone-12'
-      views: never
-    }
-    'pages/posts/genshin-pizza-helper.md': {
-      routes: '/posts/genshin-pizza-helper'
-      views: never
-    }
-    'pages/posts/goodbye-npp.md': {
-      routes: '/posts/goodbye-npp'
-      views: never
-    }
-    'pages/posts/google-translate-unavailable.md': {
-      routes: '/posts/google-translate-unavailable'
-      views: never
-    }
-    'pages/posts/happy-mid-autumn-festival.md': {
-      routes: '/posts/happy-mid-autumn-festival'
-      views: never
-    }
-    'pages/posts/hello-world.md': {
-      routes: '/posts/hello-world'
-      views: never
-    }
-    'pages/posts/hengshui-disease.md': {
-      routes: '/posts/hengshui-disease'
-      views: never
-    }
-    'pages/posts/jsdelivr-mirror.md': {
-      routes: '/posts/jsdelivr-mirror'
-      views: never
-    }
-    'pages/posts/launcher-develop.md': {
-      routes: '/posts/launcher-develop'
-      views: never
-    }
-    'pages/posts/lyricease.md': {
-      routes: '/posts/lyricease'
-      views: never
-    }
-    'pages/posts/maimai-newbee.md': {
-      routes: '/posts/maimai-newbee'
-      views: never
-    }
-    'pages/posts/mem-reduct.md': {
-      routes: '/posts/mem-reduct'
-      views: never
-    }
-    'pages/posts/miaorun-public-cdn.md': {
-      routes: '/posts/miaorun-public-cdn'
-      views: never
-    }
-    'pages/posts/midterm-review.md': {
-      routes: '/posts/midterm-review'
-      views: never
-    }
-    'pages/posts/migrate-waline-db-to-mongodb.md': {
-      routes: '/posts/migrate-waline-db-to-mongodb'
-      views: never
-    }
-    'pages/posts/minecraft-problems-solve.md': {
-      routes: '/posts/minecraft-problems-solve'
-      views: never
-    }
-    'pages/posts/my-mcserver.md': {
-      routes: '/posts/my-mcserver'
-      views: never
-    }
-    'pages/posts/my-opinions-about-that-post.md': {
-      routes: '/posts/my-opinions-about-that-post'
-      views: never
-    }
-    'pages/posts/my-poor-mathematics.md': {
-      routes: '/posts/my-poor-mathematics'
-      views: never
-    }
-    'pages/posts/my-taste-of-music.md': {
-      routes: '/posts/my-taste-of-music'
-      views: never
-    }
-    'pages/posts/netease-and-minecraft.md': {
-      routes: '/posts/netease-and-minecraft'
-      views: never
-    }
-    'pages/posts/omori.md': {
-      routes: '/posts/omori'
-      views: never
-    }
-    'pages/posts/play-minecraft-with-friends.md': {
-      routes: '/posts/play-minecraft-with-friends'
-      views: never
-    }
-    'pages/posts/reinstall-my-pc-os.md': {
-      routes: '/posts/reinstall-my-pc-os'
-      views: never
-    }
-    'pages/posts/rewrite-my-blog.md': {
-      routes: '/posts/rewrite-my-blog'
-      views: never
-    }
-    'pages/posts/site-speed-optimization.md': {
-      routes: '/posts/site-speed-optimization'
-      views: never
-    }
-    'pages/posts/talk-about-communications.md': {
-      routes: '/posts/talk-about-communications'
-      views: never
-    }
-    'pages/posts/use-artalk-in-valaxy.md': {
-      routes: '/posts/use-artalk-in-valaxy'
-      views: never
-    }
-    'pages/posts/use-oneplus-6t-in-2025-1.md': {
-      routes: '/posts/use-oneplus-6t-in-2025-1'
-      views: never
-    }
-    'pages/posts/valaxy.md': {
-      routes: '/posts/valaxy'
-      views: never
-    }
-    'pages/posts/whats-changed-to-my-blog.md': {
-      routes: '/posts/whats-changed-to-my-blog'
-      views: never
-    }
-    'pages/posts/windows-delievry-optimize.md': {
-      routes: '/posts/windows-delievry-optimize'
-      views: never
-    }
-    'pages/posts/windows-search-optimization.md': {
-      routes: '/posts/windows-search-optimization'
-      views: never
-    }
-    'pages/posts/xiaoyu-and-linxiaoyu.md': {
-      routes: '/posts/xiaoyu-and-linxiaoyu'
-      views: never
-    }
-    'pages/posts/zhongkao-grades.md': {
-      routes: '/posts/zhongkao-grades'
+    'pages/posts/zyfx-toolooz.md': {
+      routes: '/posts/zyfx-toolooz'
       views: never
     }
     'pages/search/index.md': {

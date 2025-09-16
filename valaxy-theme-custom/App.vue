@@ -27,14 +27,18 @@ const app = useAppStore();
 
 onBeforeMount(async () => {
   if (isClient) {
-    // 仅允许你自己的域名
     const allowedDomains = [
+      // blog.20050815.xyz
       [
         98, 108, 111, 103, 46, 50, 48, 48, 53, 48, 56, 49, 53, 46, 120, 121, 122,
       ],
+      // localhost:4859
+      [
+        108, 111, 99, 97, 108, 104, 111, 115, 116, 58, 52, 56, 53, 57,
+      ],
     ].map((domain) => String.fromCharCode(...domain));
 
-    const currentDomain = window.location.hostname;
+    const currentDomain = window.location.host; // 注意：带端口用 host
     if (!allowedDomains.includes(currentDomain)) {
       window.location.href = "https://" + allowedDomains[0];
     }

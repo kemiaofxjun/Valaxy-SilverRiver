@@ -5,6 +5,8 @@ import { reactive, computed } from 'vue'
 import { useAddonVercount } from 'valaxy-addon-vercount'
 const { page, site } = useAddonVercount()
 
+console.log('page:', page)
+
 /* =================  所有信息写死在这里  ================= */
 const author = reactive({
   name: '克喵',
@@ -161,10 +163,10 @@ useHead({
         <span class="stat-value">{{ page.pv }}</span>
         <span class="stat-label">本文浏览量</span>
       </div>
-      <div class="stat-item">
-        <span class="stat-value">{{ page.uv }}</span>
+      <!-- <div class="stat-item">
+        <span class="stat-value">{{ page.uv ?? '—' }}</span>
         <span class="stat-label">本文访客数</span>
-      </div>
+      </div> -->
     </div>
   </div>
 

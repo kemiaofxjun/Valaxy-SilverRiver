@@ -82,7 +82,7 @@ const paginated = computed(() => {
 /* ---------------- 作者信息 ---------------- */
 const defaultAuthor = {
   name: '克喵爱吃卤面',
-  avatar: 'https://img.314926.xyz/images/2025/08/13/no-background-kemiaofxjun.webp',
+  avatar: 'https://img.314926.xyz/images/2025/09/15/kemiaofxjun-avatar.webp',
   badges: ['阁主'],
 }
 const author = (m: MomentItem) => m.author || defaultAuthor
